@@ -3,29 +3,23 @@
 html
     scroll-behavior: smooth
 body
-    background: #FFFFFF   
+    background: #FFFFFF 
+    font-family: Nunito  
 h2
-  font-family: Nunito
   font-size: 24px
   font-weight: 700
   line-height: 33px
 h3
-  font-family: Nunito
   font-size: 20px
   font-weight: 600
   line-height: 27px
- 
-  
 p
-  font-family: Nunito
   font-size: 14px
   font-weight: 400
   line-height: 19px
   color: #73798C
-
 a
   text-decoration: none
-  font-family: Nunito
   font-weight: 400
   text-align: left
   color: #000000
@@ -61,11 +55,12 @@ section
     &__num
         a
             font-weight: 600
-            font-family: 18px
+            font-size: 18px
             line-height: 24.5px
 .header__choice
     margin-top: 41px
     display: flex
+    align-items: center
     justify-content: space-between
     ul
         display: flex
@@ -74,7 +69,7 @@ section
         gap:23px
         li
             a
-                font-family: 14px
+                font-size: 14px
                 line-height: 19.1px
                 &:hover
                     color: #F96900
@@ -84,10 +79,11 @@ section
        height: 300px
        width: 1060px
        border-radius: 20px
-main
-    padding-top: 30px
-    padding-bottom: 134px
+
 .main__new
+   h2
+        margin-top: 70px
+            
     &__popular
         display: flex
         justify-content: space-between
@@ -100,6 +96,7 @@ main
             width: 251px
             border-radius: 10px
             overflow: hidden
+            box-shadow: 0px 6px 25px 0px #0605320D
             img
                 padding-left: 18px    
             &__price
@@ -113,7 +110,7 @@ main
                     font-weight: 400
                     line-height: 19px
 .main__content
-    margin-top: 40px
+    padding-top:40px 
     display: grid
     grid-template-columns: repeat(4, 1fr)
     column-gap: 20px
@@ -126,7 +123,6 @@ main
         padding: 0 15px
     h3
         margin-top: 5px
-
     p
         margin-top: 10px
         flex:1
@@ -148,6 +144,118 @@ main
     p
         text-align: center
         padding-bottom: 9px
+footer
+    margin-top: 134px
+    background: #464C55
+    a,h4,p
+         color:#ffffff
+.footer__info
+    margin-top:50px
+    display: flex
+    justify-content: space-between 
+    &__list
+        display: flex
+        justify-content: space-between
+        gap:35px
+        max-width:670px
+        &__link
+            h4
+                font-size: 18px
+                font-weight: 600
+                line-height: 26px
+            li
+                margin-top: 10px    
+                a
+                    font-size: 18px
+                    line-height: 26px
+.footer__info__contacts
+   a
+        img
+            display: inline
+   &__tel
+        margin-top: 29px
+        text-align: right
+        a
+            font-size: 26px
+            font-weight: 600
+            line-height: 26px
+        p
+            font-size: 15px
+            font-weight: 400
+            line-height: 20px
+            margin-top: 6px
+        &__mail
+            margin-top: 26px
+            a
+                font-size: 15px
+                font-weight: 400
+                line-height: 20px
+.footer__middle
+    margin-top: 93px
+    max-width: 696px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__num
+        max-width: 299px
+    &__country
+        max-width:241px      
+    p
+        font-size: 26px
+        font-weight: 600
+        line-height: 26px
+    & p:last-of-type
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+        margin-top: 12px
+hr
+    border: 1px solid #FFFFFF
+    margin-top:40px
+.footer__end
+    margin-top: 46px
+    padding-bottom:44px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &__info
+        ul
+            display: flex
+            justify-content: space-between
+            align-items: center 
+            gap: 20px
+    &__social
+        ul
+            display: flex
+            justify-content: space-between
+            align-items: center 
+            gap: 5px
+            
+
+                 
+
+            
+
+
+
+                
+            
+
+
+                
+
+
+
+            
+       
+         
+
+
+            
+
+
+
+
 
 
 

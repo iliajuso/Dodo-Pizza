@@ -85,6 +85,7 @@ section {
 .header__choice {
   margin-top: 41px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .header__choice ul {
@@ -110,11 +111,9 @@ section {
   border-radius: 20px;
 }
 
-main {
-  padding-top: 30px;
-  padding-bottom: 134px;
+.main__new h2 {
+  margin-top: 70px;
 }
-
 .main__new__popular {
   display: flex;
   justify-content: space-between;
@@ -190,4 +189,113 @@ main {
 .card__buy__plus p {
   text-align: center;
   padding-bottom: 9px;
+}
+
+footer {
+  margin-top: 134px;
+  background: #464C55;
+}
+footer a, footer h4, footer p {
+  color: #ffffff;
+}
+
+.footer__info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  max-width: 670px;
+}
+.footer__info__list__link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.footer__info__list__link li {
+  margin-top: 10px;
+}
+.footer__info__list__link li a {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.footer__info__contacts a img {
+  display: inline;
+}
+.footer__info__contacts__tel {
+  margin-top: 29px;
+  text-align: right;
+}
+.footer__info__contacts__tel a {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.footer__info__contacts__tel p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 6px;
+}
+.footer__info__contacts__tel__mail {
+  margin-top: 26px;
+}
+.footer__info__contacts__tel__mail a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer__middle {
+  margin-top: 93px;
+  max-width: 696px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__middle__num {
+  max-width: 299px;
+}
+.footer__middle__country {
+  max-width: 241px;
+}
+.footer__middle p {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.footer__middle p:last-of-type {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 12px;
+}
+
+hr {
+  border: 1px solid #FFFFFF;
+  margin-top: 40px;
+}
+
+.footer__end {
+  margin-top: 46px;
+  padding-bottom: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__end__info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer__end__social ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
 }/*# sourceMappingURL=style.css.map */
