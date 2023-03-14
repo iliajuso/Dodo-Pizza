@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #e5e5e5;
+  background: #FFFFFF;
 }
 
 h2 {
@@ -17,7 +17,14 @@ h2 {
   line-height: 33px;
 }
 
-p, h3 {
+h3 {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+p {
   font-family: Nunito;
   font-size: 14px;
   font-weight: 400;
@@ -57,6 +64,10 @@ button:hover {
   margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
+}
+
+section {
+  margin-top: 70px;
 }
 
 .header__info {
@@ -99,11 +110,12 @@ button:hover {
   border-radius: 20px;
 }
 
-.main__new {
-  margin-top: 70px;
+main {
+  padding-top: 30px;
+  padding-bottom: 134px;
 }
+
 .main__new__popular {
-  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -115,7 +127,6 @@ button:hover {
   height: 104px;
   width: 251px;
   border-radius: 10px;
-  background-color: #ffffff;
   overflow: hidden;
 }
 .main__new__popular__card img {
@@ -128,5 +139,55 @@ button:hover {
   color: #000000;
 }
 .main__new__popular__card__price h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.main__content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 60px;
+}
+
+.card {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  padding: 0 15px;
+}
+.card h3 {
+  margin-top: 5px;
+}
+.card p {
+  margin-top: 10px;
+  flex: 1;
+}
+.card__buy {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__buy p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
   color: #000000;
+}
+
+.card__buy__plus {
+  background: #F3F3F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__buy__plus p {
+  text-align: center;
+  padding-bottom: 9px;
 }/*# sourceMappingURL=style.css.map */
