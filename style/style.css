@@ -8,24 +8,23 @@ html {
 
 body {
   background: #FFFFFF;
+  font-family: Nunito;
 }
 
 h2 {
-  font-family: Nunito;
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-family: Nunito;
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
 }
 
 p {
-  font-family: Nunito;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
@@ -34,7 +33,6 @@ p {
 
 a {
   text-decoration: none;
-  font-family: Nunito;
   font-weight: 400;
   text-align: left;
   color: #000000;
@@ -78,7 +76,7 @@ section {
 }
 .header__info__num a {
   font-weight: 600;
-  font-family: 18px;
+  font-size: 18px;
   line-height: 24.5px;
 }
 
@@ -95,7 +93,7 @@ section {
   gap: 23px;
 }
 .header__choice ul li a {
-  font-family: 14px;
+  font-size: 14px;
   line-height: 19.1px;
 }
 .header__choice ul li a:hover {
@@ -113,6 +111,7 @@ section {
 
 .main__new h2 {
   margin-top: 70px;
+  margin-bottom: 30px;
 }
 .main__new__popular {
   display: flex;
@@ -127,6 +126,7 @@ section {
   width: 251px;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0px 6px 25px 0px rgba(6, 5, 50, 0.0509803922);
 }
 .main__new__popular__card img {
   padding-left: 18px;
@@ -144,7 +144,7 @@ section {
 }
 
 .main__content {
-  margin-top: 40px;
+  padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -moz-column-gap: 20px;
