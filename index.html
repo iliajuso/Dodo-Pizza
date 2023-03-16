@@ -13,10 +13,13 @@
 </head>
 <body>
     <header class="container">
-       <div class="header__info">
-                <div class="header__info__logo">
-                    <img src="./image/logo.png" alt="Додо Пица">
-                </div>
+        <div class="header__info">
+        <div class="header__info__logo">
+                    <picture>
+                        <source media="(max-width:576px)" srcset="./image/mobileheader.png" >
+                        <img src="./image/logo.png" alt="Додо Пица">
+                      </picture>
+                 </div>
                 <div class="header__info__num">
                     <a href="tel:8 800 302-00-60">8 800 302-00-60</a>
                     <p>Звонок бесплатный</p>
@@ -34,8 +37,11 @@
             <button>Корзина</button>
         </div>
         <div class="header__photo">
-            <img src="./image/16a830b20fe68cfe0374e5cbb4d20f33.png" alt="Pizza">
-        </div>
+            <picture>
+                <source media="(max-width:576px)" srcset="./image/mobileheaderphoto.png" >
+                <img src="./image/16a830b20fe68cfe0374e5cbb4d20f33.png" alt="Pizza">
+              </picture>
+         </div>
     </header>
     <main class="container">
         <section class="main__new">
@@ -68,14 +74,14 @@
                                 <h3>Карбонара</h3>
                                 <p>от 395 ₽</p>
                             </div>
-                </div>    
-            </div>
+             </div>
         </section>
-        <section class="main__pizza" id="pizza">
+      <section class="main__pizza" id="pizza">
             <h2>Пицца</h2>
            <div class="main__content">
             <div class="card" >
                 <img src="./image/image5.png" alt="Пицца из половинок">
+                <div class="card__info">
                 <h3>Пицца из половинок</h3>
                 <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
                 <div class="card__buy">
@@ -83,8 +89,10 @@
                     <button>Собрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/image6.png" alt="Пепперони-сердце">
+                <div class="card__info">
                 <h3>Пепперони-сердце</h3>
                 <p>Пикантная пепперони, моцарелла, томатный соус</p>
                 <div class="card__buy">
@@ -92,8 +100,10 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/7.png" alt="Пирог-сердце">
+                <div class="card__info">
                 <h3>Пирог-сердце</h3>
                 <p>Ананасы, брусника, сгущенное молоко</p>
                 <div class="card__buy">
@@ -101,8 +111,10 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/8.png" alt="Чиззи чеддер">
+                <div class="card__info">
                 <h3>Чиззи чеддер</h3>
                 <p>Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы</p>
                 <div class="card__buy">
@@ -110,8 +122,10 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/image9.png" alt="Цыпленок блю чиз">
+                <div class="card__info">
                 <h3>Цыпленок блю чиз</h3>
                 <p>Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо</p>
                 <div class="card__buy">
@@ -119,8 +133,10 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/image10.png" alt="Нежный лосось">
+                <div class="card__info">
                 <h3>Нежный лосось</h3>
                 <p>Лосось, томаты черри, соус песто, моцарелла, соус альфредо</p>
                 <div class="card__buy">
@@ -128,8 +144,10 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/image11.png" alt="Сырная">
+                <div class="card__info">
                 <h3>Сырная</h3>
                 <p>Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо</p>
                 <div class="card__buy">
@@ -137,14 +155,17 @@
                     <button>Выбрать</button>
                 </div>
             </div>
+            </div>
             <div class="card">
                 <img src="./image/image12.png" alt="Пепперони фреш">
+                <div class="card__info">
                 <h3>Пепперони фреш</h3>
                 <p>Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус</p>
                 <div class="card__buy">
                     <p>от 245 ₽</p>
                     <button>Выбрать</button>
                 </div>
+            </div>
             </div>
            </div> 
         </section>
@@ -153,6 +174,7 @@
             <div class="main__content">
                 <div class="card" >
                     <img src="./image/image13.png" alt="Комбо за 599 ₽">
+                    <div class="card__info">
                     <h3>Комбо за 599 ₽</h3>
                     <p>Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.</p>
                     <div class="card__buy">
@@ -160,8 +182,10 @@
                         <button>Собрать</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image14.png" alt="2 пиццы">
+                    <div class="card__info">
                     <h3>2 пиццы</h3>
                     <p>Самое популярное комбо из 2 пицц 30 см. Большой выбор</p>
                     <div class="card__buy">
@@ -169,8 +193,10 @@
                         <button>Собрать</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image14.png" alt="2 пиццы и закуска">
+                    <div class="card__info">
                     <h3>2 пиццы и закуска</h3>
                     <p>2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек</p>
                     <div class="card__buy">
@@ -178,8 +204,10 @@
                         <button>Собрать</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image14.png" alt="Пицца и 2 закуски">
+                    <div class="card__info">
                     <h3>Пицца и 2 закуски</h3>
                     <p>Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек</p>
                     <div class="card__buy">
@@ -187,14 +215,17 @@
                         <button>Собрать</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image15.png" alt="Комбо за 999 ₽">
+                    <div class="card__info">
                     <h3>Комбо за 999 ₽</h3>
                     <p>3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен</p>
                     <div class="card__buy">
                         <p>999 ₽</p>
                         <button>Собрать</button>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -203,15 +234,18 @@
             <div class="main__content">
                 <div class="card" >
                     <img src="./image/image16.png" alt="Томатный суп с гренками">
+                    <div class="card__info">
                     <h3>Томатный суп с гренками</h3>
                     <p>Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов</p>
                     <div class="card__buy">
                         <p>99 ₽</p>
                         <button>В корзину</button>
                     </div>
+                    </div>
                 </div>
                 <div class="card" >
                     <img src="./image/image16.png" alt="Томатный суп с митболами">
+                    <div class="card__info">
                     <h3>Томатный суп с митболами</h3>
                     <p>Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов</p>
                     <div class="card__buy">
@@ -219,8 +253,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image17.png" alt="Додстер">
+                    <div class="card__info">
                     <h3>Додстер</h3>
                     <p>Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке</p>
                     <div class="card__buy">
@@ -228,8 +264,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image18.png" alt="Острый Додстер">
+                    <div class="card__info">
                     <h3>Острый Додстер</h3>
                     <p>Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке</p>
                     <div class="card__buy">
@@ -237,14 +275,17 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image19.png" alt="Додстер Чипотле">
+                    <div class="card__info">
                     <h3>Додстер Чипотле</h3>
                     <p>Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке</p>
                     <div class="card__buy">
                         <p>159 ₽</p>
                         <button>В корзину</button>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -253,6 +294,7 @@
             <div class="main__content">
                 <div class="card" >
                     <img src="./image/image20.png" alt="Яблочный пирог">
+                    <div class="card__info">
                     <h3>Яблочный пирог</h3>
                     <p>Десерт из песочного теста с яблочной начинкой. Может содержать изюм</p>
                     <div class="card__buy">
@@ -260,8 +302,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image21.png" alt="Чизкейк Нью-Йорк">
+                    <div class="card__info">
                     <h3>Чизкейк Нью-Йорк</h3>
                     <p>Классический американский творожный десерт</p>
                     <div class="card__buy">
@@ -269,8 +313,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image22.png" alt="Фонданы, 2 шт">
+                    <div class="card__info">
                     <h3>Фонданы, 2 шт</h3>
                     <p>Два десерта с хрустящей корочкой и топлёной шоколадной начинкой</p>
                     <div class="card__buy">
@@ -278,8 +324,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image23.png" alt="Молочный коктейль с печеньем Орео">
+                    <div class="card__info">
                     <h3>Молочный коктейль с печеньем Орео</h3>
                     <p>Напиток из молока и мороженого с добавлением дробленого печенья «Орео»</p>
                     <div class="card__buy">
@@ -287,14 +335,17 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image23.png" alt="Классический молочный коктейль">
+                    <div class="card__info">
                     <h3>Классический молочный коктейль</h3>
                     <p>Напиток из молока и мороженого</p>
                     <div class="card__buy">
                         <p>159 ₽</p>
                         <button>В корзину</button>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -303,6 +354,7 @@
             <div class="main__content">
                 <div class="card" >
                     <img src="./image/image24.png" alt="2 Coca-Cola по суперцене">
+                    <div class="card__info">
                     <h3>2 Coca-Cola по суперцене</h3>
                     <p>Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л</p>
                     <div class="card__buy">
@@ -310,8 +362,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image25.png" alt="Coca-Cola Orange">
+                    <div class="card__info">
                     <h3>Coca-Cola Orange</h3>
                     <p>0,5 л</p>
                     <div class="card__buy">
@@ -319,8 +373,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image26.png" alt="Coca-Cola Zero">
+                    <div class="card__info">
                     <h3>Coca-Cola Zero</h3>
                     <p>0,5 л</p>
                     <div class="card__buy">
@@ -328,8 +384,10 @@
                         <button>В корзину</button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image27.png" alt="Coca-Cola">
+                    <div class="card__info">
                     <h3>Coca-Cola</h3>
                     <p>0,5 л</p>
                     <div class="card__buy">
@@ -341,14 +399,17 @@
                         </button>
                     </div>
                 </div>
+                </div>
                 <div class="card" >
                     <img src="./image/image28.png" alt="Coca-Cola Vanilla">
+                    <div class="card__info">
                     <h3>Coca-Cola Vanilla</h3>
                     <p>0,5 л</p>
                     <div class="card__buy">
                         <p>159 ₽</p>
                         <button>В корзину</button>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -439,7 +500,7 @@
             <li><a href="https://vk.com/dodo"><img src="./image/vk.png" alt="V Kontakte"></a></li>
             <li> <a href="https://www.youtube.com/channel/UCkPTVsNw2R5lwQ_VxF6Wuow"><img src="./image/youtube.png" alt="Youtube"></a></li>
         </ul>
-        <hr class="footer__line"> 
+       <hr class="footer__line"> 
        </div>
      </div>
 </div>

@@ -283,7 +283,7 @@ footer
             
         hr
             display: block
-             
+            margin-top:20px 
     .footer__line
         display: none
     .footer__end
@@ -299,7 +299,42 @@ footer
             margin-right: auto
             hr
                 display: block
-                m
+                margin:0
+@media ( max-width: 576px )
+    .header__info
+        margin-top:12px
+    .header__info__num
+        display: none
+    .main__content
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        row-gap: 0px
+        padding-top: 20px
+    .card
+        flex-direction: row
+        align-items: center
+        max-width: 576px
+        gap: 7px 
+        img
+            width:115px
+            padding: 0px 
+        h3
+            padding:16px 10px 0px 0px
+            font-size: 18px
+            font-weight: 600
+            line-height: 20px
+        &__buy
+            display: flex
+            flex-direction: column
+    h2
+        margin-bottom: 0px
+    footer
+        margin-top: 40px
+               
+               
+           
+
+                    
                 
             
     
