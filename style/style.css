@@ -223,7 +223,7 @@ footer a, footer h4, footer p {
   line-height: 26px;
 }
 
-.footer__info__contacts a img {
+.footer__info__contacts__img img {
   display: inline;
 }
 .footer__info__contacts__tel {
@@ -243,6 +243,9 @@ footer a, footer h4, footer p {
 }
 .footer__info__contacts__tel__mail {
   margin-top: 26px;
+}
+.footer__info__contacts__tel__mail hr {
+  display: none;
 }
 .footer__info__contacts__tel__mail a {
   font-size: 15px;
@@ -275,9 +278,11 @@ footer a, footer h4, footer p {
   margin-top: 12px;
 }
 
-hr {
+.footer__line {
   border: 1px solid #FFFFFF;
   margin-top: 40px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .footer__end {
@@ -293,9 +298,91 @@ hr {
   align-items: center;
   gap: 20px;
 }
+.footer__end__social hr {
+  display: none;
+}
 .footer__end__social ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+}
+
+@media (max-width: 992px) {
+  .main__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main__new__popular {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__info__contacts__tel {
+    text-align: center;
+  }
+  .footer__end {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .main__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer__info__contacts__tel__info {
+    display: none;
+  }
+  .footer__middle {
+    display: none;
+  }
+  .footer__info__contacts {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .footer__info__contacts__img a {
+    display: inline-block;
+  }
+  .footer__info__contacts__tel {
+    margin: 0px;
+  }
+  .footer__info__contacts__tel__mail {
+    text-align: left;
+  }
+  .footer__info__contacts__tel hr {
+    display: block;
+  }
+  .footer__line {
+    display: none;
+  }
+  .footer__end {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer__end__info {
+    margin-right: auto;
+  }
+  .footer__end__info ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__end__social {
+    margin-right: auto;
+  }
+  .footer__end__social hr {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
